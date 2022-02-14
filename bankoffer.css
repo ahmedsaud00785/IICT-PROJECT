@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* background-color: white; */
+}
+.box1 {
+  display: inline-block;
+  margin: 0px 120px;
+  padding: 4px;
+  line-height: 40px;
+  /* border: 2px solid wheat; */
+  height: 75vh;
+  width: 30vw;
+  background-color: #fff;
+  color: black;
+  border: inherit;
+  border-radius: 5px;
+}
+.element {
+  background-color: red;
+  font-size: 15px;
+  padding: 12px 24px;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+}
+
+nav {
+  width: 100%;
+  height: 75px;
+  line-height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo img {
+  width: 130px;
+  margin: 0px 17px;
+  padding: 10px 5px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: 0.5s all ease;
+}
+ul {
+  margin: 0px;
+}
+ul li {
+  float: left;
+  padding: 0px 20px;
+  list-style: none;
+}
+ul li a:hover {
+  color: red;
+}
+.super {
+  background-image: url("img10.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.main {
+  background: rgba(0, 0, 0, 0.5);
+}
+.wrp {
+  color: #fff;
+}
+.table-header {
+  text-align: left;
+}
+thead {
+  font-size: 20px;
+}
+.my3 {
+  text-align: center;
+}
+
+a:hover {
+  color: red;
+}
+.data-table {
+  padding: 0px 33px;
+}
+.data-table2 {
+  padding: 0px 45px;
+}
+.number-div {
+  padding: 0px 25px;
+}
+#piclogo {
+  margin: 0;
+  padding: 0;
+  border: solid white 2px;
+}

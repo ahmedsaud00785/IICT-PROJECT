@@ -1,0 +1,57 @@
+.col6 {
+  text-align: center;
+}
+#message {
+  width: 33vw;
+  height: 18vh;
+}
+#subject {
+  width: 33vw;
+}
+#name {
+  width: 33vw;
+}
+#incwidth {
+  width: 16vw;
+}
+#incwidth1 {
+  width: 16vw;
+}
+
+body {
+  background-image: url("img10.jpg");
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: #fff;
+  font-weight: bold;
+  font-size: 45px;
+}
+#contactus10 {
+  width: 600px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+input[type="text"],
+input[type="Email"],
+input[type="Number"] {
+  background: transparent;
+  border: none;
+  border-bottom: 3px #ccc solid;
+  color: #ffffff;
+}
+input[type="text"]::placeholder,
+input[type="Email"]::placeholder,
+input[type="Number"]::placeholder {
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  color:white;
+}
+#message {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  color: #ffffff;
+}
